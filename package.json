@@ -1,11 +1,11 @@
 {
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "tailwindcss": "^3.3.3"
   },
   "name": "incubation",
   "version": "1.0.0",
   "description": "Website for VESIT Incubation Center",
-  "main": "index.js",
   "dependencies": {
     "serve": "^14.2.1"
   },
