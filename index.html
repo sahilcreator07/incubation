@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./src/tailwind.css" />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
@@ -31,7 +32,7 @@
     />
   </head>
   <body class="bg-lightb">
-    <nav class="bg-brightb w-full z-20 top-0 left-0 border-b">
+    <nav class="bg-brightb w-full z-50 top-0 left-0 border-b sticky">
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -144,7 +145,6 @@
         </button>
       </div>
     </div>
-
     <div class="grid bg-lightb font-poppins justify-start mt-16 pl-40 py-10">
       <div
         class="font-robo flex flex-row mt-5 text-7xl mb-5 font-semibold"
@@ -187,6 +187,24 @@
           alt=""
           class="w-[350px] h-[500px] -mt-10"
         />
+      </div>
+    </div>
+    <div
+      class="grid bg-lightb font-poppins justify-start mt-10 pl-40 py-10"
+      id="partnership"
+    >
+      <h1 class="font-robo flex flex-row mt-5 text-7xl mb-5 font-semibold">
+        Partnerships
+      </h1>
+      <div class="overflow-x-auto flex flex-row w-screen" id="partnershipList">
+        <div class="m-4 rounded-xl flex items-center">
+          <img
+            src="https://madeby.google.com/static/images/google_g_logo.svg"
+            width="100"
+            height="100"
+          />
+          <h4 class="font-robo flex flex-row mt-5 text-5xl mb-5 font-semibold text-gray-800">Google</h4>
+
       </div>
     </div>
   </body>
