@@ -5,8 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'lightb' : '#f5f5f5',
-        'secondary': '#d6d6d6',
-        'brightb' : '#0A2B88',
+        'secondary': '#F0F0F0',
+        'brightb' : '#3C486B',
         'bg' : '#F5F5F5',
         'dtext': '0d1117',
         'text': '#333333',
