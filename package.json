@@ -1,5 +1,18 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.3.3"
-  }
+  },
+  "name": "incubation",
+  "version": "1.0.0",
+  "description": "Website for VESIT Incubation Center",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^14.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "author": "Colegion",
+  "license": "ISC"
 }
